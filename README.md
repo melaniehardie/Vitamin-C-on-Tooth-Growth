@@ -81,14 +81,14 @@ the dose versus length for each supp factor using the following snippet:
             title="Effect of Vitamin C on Tooth Growth in Guinea Pigs") +
             guides(fill = guide_legend(title="Supplement"))
 
-![](projectPart2_files/figure-markdown_strict/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)
 
 The plot above gives us the total length of odontoblasts from the 10
 test subjects in each of the 6 test groups.
 
 Let's also look at a summary of lengths for each test group:
 
-<img src="projectPart2_files/figure-markdown_strict/unnamed-chunk-4-1.png" title="" alt="" style="display: block; margin: auto;" />
+<img src="unnamed-chunk-4-1.png" title="" alt="" style="display: block; margin: auto;" />
 
 Inferential Analysis
 --------------------
