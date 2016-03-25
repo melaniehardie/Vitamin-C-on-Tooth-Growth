@@ -142,7 +142,7 @@ mentioned, we assume the groups are independent (not paired).
 
 The rejection region includes both tails and is therefore two-sided
 since we will reject the null hypothesis if the test statistic is
-smaller or greater than the confidence interval boundaries.
+smaller or greater than the corresponding t critical values.
 
 Perform the t-test:
 
@@ -165,10 +165,10 @@ Perform the t-test:
     ## mean of x mean of y 
     ##     26.06     13.23
 
-We see that test statistic is 7.817, which is not within the 95%
-confidence interval, so we reject the null hypothesis in favor of the
-alternative hypothesis that odontoblast length is affected by the dose
-of Vitamin C from orange juice.
+We see that p-value is very small, so at any reasonable level
+we reject the null hypothesis in favor of the alternative hypothesis 
+that odontoblast length is affected by the dose of Vitamin C 
+from orange juice.
 
 ### Ascorbic Acid Supplement
 
@@ -198,9 +198,7 @@ favor of increasing Vitamin C consumption from ascorbic acid. It should
 also be noted that we may assume unequal variance. As previously
 mentioned, we assume the groups are independent (not paired).
 
-The rejection region includes both tails and is therefore two-sided
-since we will reject the null hypothesis if the test statistic is
-smaller or greater than the confidence interval boundaries.
+The rejection region includes both tails and is therefore two-sided.
 
 Perform the t-test:
 
@@ -223,10 +221,9 @@ Perform the t-test:
     ## mean of x mean of y 
     ##     26.14      7.98
 
-We see that test statistic is 10.388, which is not within the 95%
-confidence interval, so we reject the null hypothesis in favor of the
-alternative hypothesis that odontoblast length is affected by the dose
-of Vitamin C from ascorbic acid.
+Again, the small p-value suggests that we should reject the null hypothesis 
+in favor of the alternative hypothesis that odontoblast length is affected 
+by the dose of Vitamin C from ascorbic acid.
 
 Since both tests support rejecting the null hypothesis, perhaps a test
 for the different supplements is warranted after all. Perhaps ascorbic
@@ -259,8 +256,7 @@ hypothesis. We again assume unequal variance between the independent
 groups.
 
 Again, the rejection region includes both tails and is therefore
-two-sided since we will reject the null hypothesis if the test statistic
-is smaller or greater than the confidence interval boundaries.
+two-sided.
 
 Perform the t-test:
 
@@ -283,11 +279,10 @@ Perform the t-test:
     ## mean of x mean of y 
     ##     26.14     26.06
 
-Here we see that the test statistic is 0.046, which is within the 95%
-confidence interval, so we would fail to reject the null hypothesis in
-favor of the alternative hypothesis. Furthermore, we can observe the
-sample means in the output: 26.14 and 26.06, which are very similar in
-value.
+Here we see that the p-value is .9639, so we would fail to reject the 
+null hypothesis in favor of the alternative hypothesis. Furthermore, 
+we can observe the sample means in the output: 26.14 and 26.06, 
+which are very similar in value.
 
 Conclusion
 ----------
@@ -295,9 +290,9 @@ Conclusion
 Assuming we are testing whether the dose of Vitamin C has an effect on
 the length of odontoblast cells in guinea pigs, we conclude that an
 increased dose of Vitamin C from either orange juice or ascorbic acid
-does have a significant effect. For both sources, the test statistic
-resulting from a two-sided, two-sample t-test was not within the 95%
-confidence interval indicting that we should reject the null hypothesis
+does have a significant effect. For both sources, the p-value
+resulting from a two-sided, two-sample t-test was very small,
+indicting that we should reject the null hypothesis
 for both tests.
 
 After further testing of the 2.0 mg doses for both supplements, there is
