@@ -94,17 +94,14 @@ Inferential Analysis
 --------------------
 
 Now, we would like to use our statistical inference knowledge to gain
-some insights into what this data means. It is actually not clear to me
-what 'problem' we are supposed to be exploring in this project, so I'll
-put forth some assumptions and proceed accordingly.
-
-First, we note that we cannot pair the data since we have 60 subjects in
-a test group with no control or baseline data. Therefore, we cannot
-compare supplement versus no supplement. Since we have various levels of
-supplement and 2 sources, we are left with options of comparing effects
-of different doses of supplements or different types of supplements. The
-plots above suggest that forming a test hypothesis with respect to dose
-may be more relevant. That is, we can see a significant effect for each
+some insights into what this data means. First, we note that we cannot 
+pair the data since we have 60 subjects in a test group with no control 
+or baseline data. Therefore, we cannot compare supplement versus no 
+supplement. Since we have various levels of supplement and 2 sources, 
+we are left with options of comparing effects of different doses of 
+supplements or different types of supplements. The plots above suggest 
+that forming a test hypothesis with respect to dose may be more relevant. 
+That is, we can see a significant effect for each
 dose level in both supplements, but the effect by supplement type is
 less distinct. However, we will also break down our analysis by
 supplement type to account for the variation.
